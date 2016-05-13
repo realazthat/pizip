@@ -1,8 +1,28 @@
 
 
+###Description
+
+Attempting to demonstrate empirically the impossibility of compression (in general) via
+indices into sequences of pi digits.
+
+###License
+
+* `main.cpp` and any of my original contributions are released under the MIT license.
+* Any modifications to libraries are released under the original license of those librares
+    * For example `gmp-chudnovsky.c` (license is in the file at the head)
+
+###Libraries
+
+* GMP
+* [maginatics/threadpool](https://github.com/maginatics/threadpool)
+    * Download it locally automatically with the `scripts/download-install-maginatics-threadpool.sh` script
+
+
 ###Compiling:
 
 ```bash
+
+    #cd /path/to/project/
 
     #download maginatics/threadpool to the ./libs directory
     bash scripts/download-install-maginatics-threadpool.sh
